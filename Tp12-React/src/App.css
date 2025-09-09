@@ -1,0 +1,10 @@
+.app-container {
+  padding: 30px;
+}
+
+.usuarios-lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* más grandes */
+  gap: 25px;
+  justify-items: center;
+}

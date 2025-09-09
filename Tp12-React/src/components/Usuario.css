@@ -1,0 +1,29 @@
+.usuario-card {
+  background: #1a2238; /* azul oscuro */
+  padding: 30px; /* más espacio */
+  border-radius: 16px;
+  width: 220px;
+  height: 160px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-align: center;
+  color: #f5f6fa;
+}
+
+.usuario-card:hover {
+  transform: scale(1.08);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.7);
+  background: #243356; /* azul un poco más claro al hacer hover */
+}
+
+.usuario-card h3 {
+  margin: 0 0 12px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.usuario-card p {
+  margin: 0;
+  font-size: 16px;
+  color: #d1d8e0;
+}

@@ -1,0 +1,13 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0a0f1f; /* azul muy oscuro, casi negro */
+  color: #f5f6fa;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px;
+  color: #ffffff;
+}
